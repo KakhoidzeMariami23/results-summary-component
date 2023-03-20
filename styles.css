@@ -196,6 +196,113 @@ color: #1125D6;
 }
 
 
+@media screen and (min-width: 768px){
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+    width: 100%;
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .top-section{
+        width:368px;
+        height:512px;
+        padding-top: 40px;
+        margin-bottom: 28px;
+    }
+
+    .h2{
+      font-size: 40px;  
+      line-height: 31.27px;
+    }
+
+.number{
+    Width: 200px;
+    Height: 200px;
+    margin-top: 35px;
+}
+
+.seventysix{
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.hundred{
+   font-size: 18px; 
+   margin-top: 4px;
+}
+
+h1{
+ font-size: 32px;
+}
+
+p{
+font-size: 18px;
+transform:translateY(70%)
+}
+
+.bottom-section{
+    width:368px;
+    height:512px; 
+ }
+
+ h3{
+    font-size: 24px;
+    line-height: 31.27px;
+    transform: translateX(-90px);
+ }
+
+ .row{
+    width: 288px;
+ }
+
+ .reaction{
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.memory{
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.verbal{
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.visual{
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.numbers{
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.one-hundred{
+    font-size: 18px;
+    line-height: 23.45px;  
+}
+
+.btn{
+    width: 288px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+}
+
+
 @media screen and (min-width: 1440px){
     body{
         justify-content: center;
